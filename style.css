@@ -1,0 +1,218 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.face{
+    width: 40%;
+    height: 80%;
+    background-color: bisque;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.upperPart{
+    width:100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.upperPart .eye{
+    width: 18%;
+    height: 45%;
+    background-color: brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperPart .smileEye{
+    width: 22%;
+    height: 45%;
+    background-color: gold;
+}
+
+.upperPart .sadEye{
+    width: 15%;
+    height: 35%;
+    background-color: gray;
+}
+
+.eyeCore{
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.smileEyeCore{
+    width: 80%;
+    height: 80%;
+}
+
+.sadEyeCore{
+    margin-top: 20px;
+    width: 30%;
+    height: 30%;
+}
+
+.middlePart{
+    width:100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middlePart .nose{
+    width: 12%;
+    height: 100%;
+    background-color: #aaa;
+    border-radius: 40px 40px 5px 5px;
+}
+
+.smileCircle{
+    width: 22%;
+    height: 90%;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.sadCircle{
+    display: none;
+}
+
+.lowerPart{
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.mouse{
+    width: 45%;
+    height: 35%;
+    margin-top: 5%;
+    border-radius: 50%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smileMouse{
+    width: 55%;
+    height: 35%;
+}
+
+.sadMouse{
+    width: 35%;
+    height: 25%;
+}
+
+.teeth{
+    width: 90%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.smileTeeth{
+    width: 95%;
+    height: 85%;
+}
+
+.sadTeeth{
+    height: 0%;
+}
+
+/* ============================================================== */
+
+.test{
+    width: 40%;
+    height: 80%;
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: tahoma;
+}
+
+.questionPart{
+    width: 90%;
+    height: 45%;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(105, 35, 35);
+}
+
+.questionPart h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+.questionPart p{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    color: tomato;
+}
+
+.answerPart{
+    width: 90%;
+    height: 45%;
+    background-color: #eee;
+}
+
+form{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+form .item{
+    width: 40%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+.buttons{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    width: 20%;
+    height: 35%;
+    border-radius: 10px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: tahoma;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #aaa;
+}
